@@ -20,3 +20,4 @@ src/Makefile.in
 src/*.o
 src/mpisbars
 stamp-h1
+compile

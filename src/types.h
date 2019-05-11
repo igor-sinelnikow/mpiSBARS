@@ -22,7 +22,7 @@ typedef bool   TypeGomology;
     #define MPI_TYPE_GOMOLOGY      MPI::BOOL
     #define MPI_TYPE_LIST_REPEAT   MPI_UNSIGNED_LONG
 #else
-    typedef int MPI_Datatype
+    typedef int MPI_Datatype;
     #define MPI_TYPE_SEQUENCE      0
     #define MPI_TYPE_PROFILE       0
     #define MPI_TYPE_DECOMPOSITION 0
